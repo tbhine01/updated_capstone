@@ -1,0 +1,51 @@
+body{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.center{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+#button{
+    text-align: center;
+    padding: 50px;
+}
+
+#shoot{
+    width: 300px;
+    background-color: #b3c799;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#user_score_box, #computer_score_box{
+    text-align: center;
+    width: 150px;
+    height: 3rem;
+}
+
+#user_score, #computer_score{
+    text-align: center;
+}

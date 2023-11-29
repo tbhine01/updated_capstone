@@ -1,0 +1,47 @@
+  @import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Creepster', sans-serif;
+}
+
+h2{
+    font-size: 75px;
+    font-family: 'Butcherman', sans-serif;
+}
+
+.title{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+h3{
+    font-family: 'Creepster', sans-serif;
+    font-size: 25px;
+}
+
+button{
+    font-family: 'Creepster', sans-serif;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 30px;
+}
+button:disabled{
+    background-color: black;
+}
+
+#button:hover{
+    background-color: lightpink;
+}
+
+#word_lines{
+    font-size: 50px;
+}

@@ -1,0 +1,39 @@
+body{
+    font-family: 'Quantico', sans-serif;
+    padding: 50px;
+    background-color: #caf0f8;
+    color: #023e8a;
+    text-align: center;
+}
+
+#game{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   align-content: center;
+}
+
+#input_box{
+    display: flexbox;
+    justify-content: center;
+    width: 320px; 
+    border: 5px #90e0ef outset;
+    padding-bottom: 5px;
+}
+
+input{
+    background-color: #0096c7;
+    color: white;
+    text-align: center;
+}
+
+button{
+    display: none;
+    background-color: #0096c7;
+    color: white
+}
+
+#guess_box{
+    border: 5px #90e0ef dotted;
+    margin-top: 20px;
+}

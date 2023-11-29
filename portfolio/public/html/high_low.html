@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/hight_low.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <title>Higher or Lower</title>
+</head>
+<body>
+    <div id="game">
+
+        <div id="input_box">
+            <h1>Higher or Lower</h1>
+
+            <h3>Guess a Number Between 1 - 100</h3>
+            <input type="number" name="number" id="number">
+            <input onclick="startGame()" type="submit" id="submit">
+
+            <h4 id="response"></h4>
+
+            <div id="play_again_button">
+            <button id="play_again" onclick="reloadPage()"> Play Again!</button>
+            </div>
+
+        </div>
+
+        <div id="guess_box">
+            <h2> Guesses</h2>
+            <h4 id="tries"></h4>
+            <h4 id="numbers_guessed"></h4>
+        </div>
+
+    </div>
+
+    <script src="js/high_low.js"></script>
+</body>
+</html>
